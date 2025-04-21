@@ -1,4 +1,4 @@
-name: CI
+name: Commit Update Check
 on:
   push:
     branches: [ "main" ]
