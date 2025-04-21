@@ -8,9 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Run a one-line script
-        run: echo Testing, 1, 2, 3
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo You have successfully made a commit in GitHub
+      - name: Commit Check
+        run: You have successfully made a commit in GitHub
