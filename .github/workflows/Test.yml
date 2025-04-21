@@ -2,7 +2,7 @@ name: CI
 on:
   push:
     branches: [ "main" ]
-    workflow_dispatch:
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Run a one-line script
         run: echo Testing, 1, 2, 3
-     - name: Run a multi-line script
+      - name: Run a multi-line script
         run: |
           echo Add other actions to build,
           echo You have successfully made a commit in GitHub
